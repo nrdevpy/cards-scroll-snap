@@ -53,3 +53,7 @@ li.bullet {
     border-radius: 100%;
     background-color: black;
 }
+
+li.bullet.active {
+    background-color: hsl(177, 70%, 20%);
+}
