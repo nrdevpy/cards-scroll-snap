@@ -22,8 +22,8 @@ body {
 }
 
 .card {
-    min-width: 85%;
-    margin: .5rem;
+    min-width: 90%;
+    margin: .5rem 2rem;
     padding: 4rem .5rem;
     background-color: hsl(177, 70%, 30%);
     border: 4px solid hsl(177, 70%, 20%);
