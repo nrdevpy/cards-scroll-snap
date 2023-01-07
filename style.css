@@ -13,6 +13,7 @@ body {
 }
 
 .cards {
+    position: relative;
     border: 4px solid lightseagreen;
 }
 
@@ -22,4 +23,12 @@ body {
     background-color: hsl(177, 70%, 30%);
     border: 4px solid hsl(177, 70%, 20%);
     text-align: center;
+    visibility: hidden;
+    transition: all ease-in-out .5s;
+    transform: translateX(50vw);
+}
+
+.card.show {
+    visibility: visible;
+    transform: translateX(0);
 }
