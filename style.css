@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     background-color: #555;
     display: grid;
+    position: relative;
 }
 
 .cards {
@@ -32,4 +33,23 @@ body {
 
 .card.show {
     visibility: visible;
+}
+
+ul.bullets {
+    all: unset;
+    display: flex;
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+li.bullet {
+    width: .5rem;
+    height: .5rem;
+    margin: .3rem;
+    list-style: none;
+    border-radius: 100%;
+    background-color: black;
 }
